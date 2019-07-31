@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <form>
+            <label>Enter first number</label><br>
+            <input type="number" id="first" /><br>
+            <label>Enter second number</label><br>
+            <input type="number" id="second" /><br>
+            <br>
+            <button type="button" id="add" onclick="calc(this.id)">Add</button>
+            <button type="button" id="sub" onclick="calc(this.id)">Subtract</button>
+            <button type="button" id="mul" onclick="calc(this.id)">Multiply</button>
+            <button type="button" id="div" onclick="calc(this.id)">Divide</button>
+            <br><br>
+
+            <input type="text" id="ans" value="" disabled />
+        </form>
+    </body>
+</html>
